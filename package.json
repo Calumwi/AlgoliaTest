@@ -2,6 +2,7 @@
   "name": "instantsearch-app",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://calumwi.github.io/AlgoliaTest",
   "scripts": {
     "start": "parcel index.html --port 3000",
     "build": "parcel build index.html",
@@ -10,6 +11,7 @@
   },
   "devDependencies": {
     "eslint": "8.15.0",
+    "gh-pages": "^6.1.1",
     "parcel": "2.0.1",
     "prettier": "2.6.2"
   },
