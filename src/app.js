@@ -1,9 +1,8 @@
 const { algoliasearch, instantsearch } = window;
-const value = Netlify.env.get("ALGOLIA_API_KEY");
 
 const searchClient = algoliasearch(
   'UUJ4M67MVC',
-  value
+  process.env.ALGOLIA_API_KEY
 );
 
 const search = instantsearch({
