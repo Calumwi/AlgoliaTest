@@ -2,7 +2,7 @@ const { algoliasearch, instantsearch } = window;
 
 const searchClient = algoliasearch(
   'UUJ4M67MVC',
-  process.env.NODE_APP_ALGOLIA_API_KEY
+  process.env.REACT_APP_ALGOLIA_API_KEY
 );
 
 const search = instantsearch({
