@@ -4,4 +4,5 @@ module.exports = {
             'process.env.ALGOLIA_API_KEY': JSON.stringify(process.env.ALGOLIA_API_KEY)
         })
     ]
+    
 }
