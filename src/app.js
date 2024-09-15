@@ -1,5 +1,3 @@
-const webpack = require('webpack')
-
 const { algoliasearch, instantsearch } = window;
 
 const searchClient = algoliasearch(
