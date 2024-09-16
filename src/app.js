@@ -27,6 +27,20 @@ search.addWidgets([
   instantsearch.widgets.searchBox({
     container: '#searchbox',
   }),
+  instantsearch.widgets.menuSelect({
+    container: '#menu-select',
+    attribute: 'categories',
+    templates: {
+      defaultOption: 'Sort by category',
+    },
+  }),
+  instantsearch.widgets.menuSelect({
+    container: '#menu-select2',
+    attribute: 'price_range',
+    templates: {
+      defaultOption: 'Sort by price range',
+    },
+  }),
   instantsearch.widgets.hits({
     container: '#hits',
     templates: {
