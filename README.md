@@ -1,10 +1,13 @@
-# instantsearch-app
-
-_This project was generated with [create-instantsearch-app](https://github.com/algolia/instantsearch/tree/master/packages/create-instantsearch-app) by [Algolia](https://algolia.com)._
-
 ## Get started
+Welcome to Calum Wilmot's tech test for Algolia. 
 
-To run this project locally, install the dependencies and run the local server:
+You can see this project deployed on Netlify here:
+https://cool-alpaca-224b32.netlify.app/
+
+You can find the Github repository for this app here:
+https://github.com/Calumwi
+
+To run this project locally, please clone the Github repository, install the dependencies and run the local server:
 
 ```sh
 npm install
@@ -18,4 +21,4 @@ yarn
 yarn start
 ```
 
-Open http://localhost:3000 to see your app.
+

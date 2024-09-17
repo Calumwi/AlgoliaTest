@@ -2,14 +2,11 @@ const search = instantsearch({
   indexName: 'products_index',
   searchClient: {
     search: async (requests) => {
-      // Use the first query from the requests array
       const query = requests[0].params.query;
 
-      // Call the serverless function instead of using the API key in the client
       const response = await fetch(`/.netlify/functions/algoliaSearch?query=${encodeURIComponent(query)}`);
       const result = await response.json();
 
-      // Format the response to match Algolia's expected format
       return {
         results: [{
           hits: result.hits,
